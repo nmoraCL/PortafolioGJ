@@ -7,8 +7,8 @@
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.6;
-  background: #f4f7f9;
-  color: #333;
+  background: #1b222f;
+  color: #b0b0de;
 }
 
 header {
@@ -18,6 +18,10 @@ header {
   padding: 2rem;
   text-align: center;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.123);
+}
+h4,
+h6 {
+  color: #fff;
 }
 
 header h1 {
@@ -41,7 +45,7 @@ main {
 }
 
 .lista {
-  background: white;
+  background: #20293b;
   padding: 1.5rem;
   margin-bottom: 1.5rem;
   border-radius: 8px;
