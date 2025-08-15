@@ -11,6 +11,10 @@ body {
   color: #b0b0de;
 }
 
+.navbar {
+  font-size: 16px;
+}
+
 header {
   background-image: url(../img/bg-header.jpg);
   background-size: cover; /* con cover la imagen rellena y compoleta el espacio*/
@@ -23,7 +27,9 @@ h4,
 h6 {
   color: #fff;
 }
-
+header {
+  padding-top: 100px;
+}
 header h1 {
   font-size: 2.5rem;
   margin-bottom: 0.5rem;
@@ -50,4 +56,26 @@ main {
   margin-bottom: 1.5rem;
   border-radius: 8px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+.btn {
+  background-color: greenyellow !important;
+  color: #25273a !important;
+  border-radius: 50px !important;
+  border: none;
+  margin-left: 15px !important;
+}
+.btn:hover {
+  background-color: #05b4ee !important;
+  color: #ffffff !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+}
+footer {
+  background: #0d0e10;
+  color: #6f6f80;
+  text-align: center;
+  padding: 1rem;
+  position: relative;
+  bottom: 0;
+  width: 100%;
 }
