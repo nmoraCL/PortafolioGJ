@@ -85,3 +85,6 @@ footer {
   padding: 20px;
   border: 1px solid #cccccc56;
 }
+.modal-dialog {
+  max-width: 90%;
+}
