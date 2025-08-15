@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  background: #f4f7f9;
+  color: #333;
+}
+
+header {
+  background-image: url(../img/bg-header.jpg);
+  background-size: cover; /* con cover la imagen rellena y compoleta el espacio*/
+  color: whitesmoke;
+  padding: 2rem;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.123);
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+  color: greenyellow;
+}
+header img {
+  width: 200px; /* tamaño de la imagen */
+  height: 200px; /* mismo valor que width para mantener la forma */
+  object-fit: cover; /* recorta la imagen sin deformarla */
+  border-radius: 50%; /* hace que sea circular */
+  border: 4px solid #fff; /* opcional: borde blanco */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* opcional: sombra */
+}
+
+main {
+  max-width: 800px;
+  margin: 2rem auto; /*al haber solo dos valores esta indicando que es arriba y abajo, derecha e izquierda*/
+  padding: 0 1rem;
+}
+
+.lista {
+  background: white;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
